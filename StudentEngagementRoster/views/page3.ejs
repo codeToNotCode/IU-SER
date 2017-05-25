@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title%> </title>
+    <link rel="stylesheet" href="./stylesheets/style.css" type="text/css" media="screen"/>
+    <!--IU symbol in the title bar-->
+    <link href="//www.iu.edu/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+
+    <!--Font stack to use-->
+    <link rel="stylesheet" href="//fonts.iu.edu/style.css?family=BentonSans:regular,bold|BentonSansCond:regular,bold|GeorgiaPro:regular|BentonSansLight:regular" type="text/css">
+    <!--IU framework to have all the relevant styles applied-->
+    <link rel="stylesheet" type="text/css" href="//assets.iu.edu/web/3.x/css/iu-framework.min.css">
+
+    <!--For the top red border-->
+    <link rel="stylesheet" href="//assets.iu.edu/brand/3.x/brand.css" type="text/css">
+    <!--For the Seaech magnifying glass: top-right corner-->
+    <link rel="stylesheet" href="//assets.iu.edu/search/3.x/search.css" type="text/css">
+</head>
+<body>
+<div class="off-canvas-wrappper-inner" data-off-canvas-wrapper>
+
+    <div class="off-canvas-content" data-off-canvas-content>
+        <!--Header Bar - Red Color -->
+        <div id="branding-bar" itemscope="itemscope" itemtype="http://schema.org/CollegeOrUniversity" role="complementary" aria-labelledby="campus-name">
+            <div class="row pad">
+                <img src="//assets.iu.edu/brand/3.x/trident-large.png" alt="IU" />
+                <p id="iu-campus">
+                    <a href="https://www.iu.edu" title="Indiana University">
+                        <span id="campus-name" class="show-on-desktop" itemprop="name">Indiana University</span>
+                        <span class="show-on-tablet" itemprop="name">Indiana University</span>
+                        <span class="show-on-mobile" itemprop="name">IU</span>
+                    </a>
+                </p>
+            </div>
+        </div>
+        <!-- Application Header : Student Engagement Roster, Rosters/Logout-->
+        <div id = "app_header">
+            <div id ="ser"><h1>Student Engagement Roster</h1></div>
+            <div id ="header_links">
+                <div id="rosters">Rosters</div> /
+                <div id="logout">Logout</div>
+            </div>
+        </div>
+
+        <!-- Page Heading and Student Name(University Id)-->
+        <div id = "page_header">
+            <h2><%= title%> </h2>
+            <hr>
+            <h4>Brooklyn Aldridge (0001234567)</h4>
+        </div>
+
+        <!-- Page Contents -->
+        <div id="table_container">
+            <table id="table" >
+                <tr valign="top" align="center">
+                    <td width="auto" align="center">
+                        <div id="left_container">
+                            <h3 style="text-align: left">Positive</h3>
+                            <table id="positive">
+                                <tr class="positive_row"><td>Enrolled in at least 12 credit hours</td></tr><tr><td></td></tr>
+                                <tr class="positive_row"><td>Enrolled in no more than 18 credit hours</td></tr><tr><td></td></tr>
+                                <tr class="positive_row"><td>Currently enrolled in English Composition</td></tr><tr><td></td></tr>
+                                <tr class="positive_row"><td>Has a course completion rate of 67% or higher</td></tr><tr><td></td></tr>
+                                <tr class="positive_row"><td>Has consistent upward grade trajectory</td></tr><tr><td></td></tr>
+                            </table>
+                            <h3 style="text-align: left">Negative</h3>
+                            <table id="negative">
+                                <tr class="negative_row"><td>One or more grades of Incomplete on transcripts</td></tr><tr><td></td></tr>
+                                <tr class="negative_row"><td>Not yet completed English Composition Requirement</td></tr><tr><td></td></tr>
+                                <tr class="negative_row"><td>One or more grades of C or lower in classes last semester</td></tr><tr><td></td></tr>
+                                <tr class="negative_row"><td>Has completed fewer than 30 credit hours</td></tr><tr><td></td></tr>
+                            </table>
+                            <h3 style="text-align: left">Neutral</h3>
+                            <table id="neutral">
+                                <tr class="neutral_row"><td>Neutral statement 1</td></tr><tr><td></td></tr>
+                                <tr class="neutral_row"><td>Neutral statement 2</td></tr><tr><td></td></tr>
+
+                            </table>
+                        </div>
+                    </td>
+                    <td id="vertical_line" ></td>
+                    <td width="auto" >
+                        <div id="right_container">
+                            <h3 style="text-align: left; padding-left: 30px">Additional Observations</h3>
+                            <div id="dropdowns">
+                                <select id="observations">
+                                    <option value="1">Observations</option>
+                                    <option value="2">Observation 2</option>
+                                    <option value="3">Observation 3</option>
+                                    <option value="4">Observation 4</option>
+                                </select>
+                                <select id="actions">
+                                    <option value="1">Actions</option>
+                                    <option value="2">Follow-up</option>
+                                    <option value="3">Email Outreach</option>
+                                    <option value="4">Registration Hold Email</option>
+                                    <option value="4">Admission Deadline</option>
+                                    <option value="4">Certification Email</option>
+                                </select>
+                                <select id="recommendations">
+                                    <option value="1">Recommendation</option>
+                                    <option value="2">Recommendation 2</option>
+                                    <option value="3">Recommendation 3</option>
+                                    <option value="4">Recommendation 4</option>
+                                </select>
+                                <select id="outcomes">
+                                    <option value="1">Outcome</option>
+                                    <option value="2">Outcome 2</option>
+                                    <option value="3">Outcome 3</option>
+                                    <option value="4">Outcome 4</option>
+                                </select>
+                            </div>
+                            <div id="results">
+                                <h5 style="text-align: left; color: darkred ">Observations</h5>
+                                <div id="show_observations">
+                                    <table >
+                                        <tr><td>Enrolled in at least 12 credit hours</td><td style="text-align: right">X</td></tr>
+                                        <tr><td>Enrolled in no more than 18 credit hours</td><td style="text-align: right">X</td></tr>
+                                        <tr><td>Has a course completion rate of 67% or higher</td><td style="text-align: right">X</td></tr>
+                                        <tr><td>Has consistent upward grade trajectory</td><td style="text-align: right">X</td></tr>
+                                    </table>
+                                </div>
+                                <h5 style="text-align: left; color: darkred">Results</h5>
+                                <div id="show_actions">
+                                    <table >
+                                        <tr><td>Follow-up</td><td style="text-align: right">X</td></tr>
+                                    </table>
+                                </div>
+                                <h5 style="text-align: left; color: darkred">Recommendations</h5>
+                                <div id="show_recommendations">
+                                    <table >
+                                        <tr><td>See advisor</td><td style="text-align: right">X</td></tr>
+                                    </table>
+                                </div>
+                                <h5 style="text-align: left; color: darkred">Outcomes</h5>
+                                <div id="show_outcomes">
+                                    <table >
+                                        <tr><td>Last semester grades greater than C-</td><td style="text-align: right">X</td></tr>
+                                        <tr><td>Completed 30+ credit hours</td><td style="text-align: right">X</td></tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <input id="submit_button" class="button" type="button" value="Submit Student Engagement Roster">
+
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <footer id="footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/CollegeOrUniversity">
+            <div class="row pad">
+                <p class="tagline">Fulfilling <span>the</span> Promise</p>
+                <p class="signature">
+                    <a href="https://www.iu.edu" class="signature-link">Indiana University</a>
+                </p>
+                <p class="copyright">
+                    <a href="https://www.iu.edu/copyright/index.html" title="Copyright">Copyright</a> &#169; 2016 <span class="line-break">The Trustees of <a href="https://www.iu.edu/" title="Indiana University" itemprop="url"><span itemprop="name">Indiana University</span></a></span> | <span class="line-break"><a href="/privacy" id="privacy-policy-link" title="Privacy Policy">Privacy Notice</a></span>
+                </p>
+            </div>
+        </footer>
+    </div><!-- /.off-canvas-content -->
+</div><!-- /.off-canvas-wrappper-inner -->
+
+
+</body>
+</html>

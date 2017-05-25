@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title%> </title>
+    <link rel="stylesheet" href="./stylesheets/style.css" type="text/css" media="screen"/>
+    <link href="//www.iu.edu/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+
+    <!--Font stack to use-->
+    <link rel="stylesheet" href="//fonts.iu.edu/style.css?family=BentonSans:regular,bold|BentonSansCond:regular,bold|GeorgiaPro:regular|BentonSansLight:regular" type="text/css">
+    <!--IU framework to have all the relevant styles applied-->
+    <link rel="stylesheet" type="text/css" href="//assets.iu.edu/web/3.x/css/iu-framework.min.css">
+
+    <!--For the top red border-->
+    <link rel="stylesheet" href="//assets.iu.edu/brand/3.x/brand.css" type="text/css">
+    <!--For the Seaech magnifying glass: top-right corner-->
+    <link rel="stylesheet" href="//assets.iu.edu/search/3.x/search.css" type="text/css">
+
+</head>
+<body class="">
+<div class="off-canvas-wrap" data-offcanvas>
+
+    <!--Header Bar - Red Color -->
+    <div id="branding-bar" itemscope="itemscope" itemtype="http://schema.org/CollegeOrUniversity" role="complementary" aria-labelledby="campus-name">
+        <div class="row pad">
+            <img src="//assets.iu.edu/brand/3.x/trident-large.png" alt="IU" />
+            <p id="iu-campus">
+                <a href="https://www.iu.edu" title="Indiana University">
+                    <span id="campus-name" class="show-on-desktop" itemprop="name">Indiana University</span>
+                    <span class="show-on-tablet" itemprop="name">Indiana University</span>
+                    <span class="show-on-mobile" itemprop="name">IU</span>
+                </a>
+            </p>
+        </div>
+    </div>
+
+
+    <div class="inner-wrap">
+
+        <!-- Application Header : Student Engagement Roster, Rosters/Logout-->
+        <div id = "app_header">
+            <div id ="ser"><h1>Student Engagement Roster</h1></div>
+            <div id ="header_links">
+                <div id="rosters">Rosters</div> /
+                <div id="logout">Logout</div>
+            </div>
+        </div>
+
+        <!-- Page Heading and Student Name(University Id)-->
+        <div id = "page_header">
+            <h2><%= title%> </h2>
+            <hr>
+
+        </div>
+
+        <main class="">
+            <div id="table_container">
+                <table id="table" class="table_students" border="1">
+                    <tr valign="top" align="center">
+                        <th width="auto" align="center">University ID</th>
+                        <th width="auto" align="center">Username</th>
+                        <th width="auto" align="center">First Name</th>
+                        <th width="auto" align="center">Last Name</th>
+                        <th width="auto" align="center">Last Updated</th>
+                    </tr>
+                    <tr>
+                        <td>2000012543</td>
+                        <td>brladri</td>
+                        <td>Brooklyn</td>
+                        <td>Aldridge</td>
+                        <td>05/20/2017</td>
+                    </tr>
+                    <tr>
+                        <td>2000034637</td>
+                        <td>baconkay</td>
+                        <td>Kaylan</td>
+                        <td>Bacon</td>
+                        <td>05/21-2017</td>
+                    </tr>
+                    <tr>
+                        <td>2000046336</td>
+                        <td>pbatchel</td>
+                        <td>Presley</td>
+                        <td>Batchelor</td>
+                        <td>05-17-2017</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+        <footer id="footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/CollegeOrUniversity">
+            <div class="row pad">
+                <p class="tagline">Fulfilling <span>the</span> Promise</p>
+                <p class="signature">
+                    <a href="https://www.iu.edu" class="signature-link">Indiana University</a>
+                </p>
+                <p class="copyright">
+                    <a href="https://www.iu.edu/copyright/index.html" title="Copyright">Copyright</a> &#169; 2016 <span class="line-break">The Trustees of <a href="https://www.iu.edu/" title="Indiana University" itemprop="url"><span itemprop="name">Indiana University</span></a></span> | <span class="line-break"><a href="/privacy" id="privacy-policy-link" title="Privacy Policy">Privacy Notice</a></span>
+                </p>
+            </div>
+        </footer>
+        <!-- footer -->
+
+    </div><!-- /.inner-wrap -->
+
+    <div class="right-off-canvas-menu show-for-medium-down">
+        <!-- offcanvas: includes menu for mobile -->
+    </div>
+
+</div><!-- /.off-canvas-wrap -->
+
+<!-- jquery -->
+<!-- global js from //assets.iu.edu -->
+<!-- global search.js from //assets.iu.edu -->
+<!-- search initialization -->
+<!-- site javascript files -->
+
+</body>
+</html>
