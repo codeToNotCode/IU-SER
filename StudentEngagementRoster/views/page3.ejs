@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="//assets.iu.edu/brand/3.x/brand.css" type="text/css">
     <!--For the Seaech magnifying glass: top-right corner-->
     <link rel="stylesheet" href="//assets.iu.edu/search/3.x/search.css" type="text/css">
+    <!--For bootstrap tour functionality-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.11.0/css/bootstrap-tour-standalone.min.css" rel="stylesheet">
 </head>
 <body>
 <div class="off-canvas-wrappper-inner" data-off-canvas-wrapper>
@@ -47,7 +49,7 @@
         <div id = "page_header">
             <h2><%= title%> </h2>
             <hr>
-            <h4>Brooklyn Aldridge (0001234567)</h4>
+            <h4 id="student_name">Brooklyn Aldridge (0001234567)</h4>
         </div>
 
         <!-- Page Contents -->
@@ -162,7 +164,9 @@
         </footer>
     </div><!-- /.off-canvas-content -->
 </div><!-- /.off-canvas-wrappper-inner -->
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.11.0/js/bootstrap-tour-standalone.min.js"></script>
+<script src="./javascripts/tour3.js"></script>
 
 </body>
 </html>

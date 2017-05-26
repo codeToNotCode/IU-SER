@@ -121,6 +121,8 @@
   margin: 5%;
   padding: 2%;
   height: auto;
+  border: solid;
+  border-color: #990000;
 }
 
 /*#table tr td{*/
@@ -171,6 +173,7 @@ hr {
   height: 70px;
   margin: 4%;
   border-radius: 10% ;
+  padding-top: 5%;
 }
 
 .table_students th{
@@ -179,4 +182,12 @@ hr {
 }
 .table_students tr {
   text-align: center;
+  cursor: pointer;
+}
+
+.table_students tr:hover {
+   background-color:  #DDF4EA;
+ }
+.bootstrap_row{
+  background-color:  #DDF4EA;
 }

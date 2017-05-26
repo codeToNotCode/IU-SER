@@ -11,6 +11,9 @@ var page3 = require('./routes/page3');
 
 var app = express();
 
+//Store the entire file in a studentData object that can be accessed from anywhere in the application
+app.locals.studentData = require('./studentData.json');
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -26,8 +29,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use("/stylesheets",express.static(__dirname + "/stylesheets"));
 
 app.use('/', page1);
-app.use('/page2', page2);
-app.use('/page3', page3);
+app.use('/page1', page1);
+//app.use('/page3', page3);
 
 
 // catch 404 and forward to error handler

@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="//assets.iu.edu/brand/3.x/brand.css" type="text/css">
     <!--For the Seaech magnifying glass: top-right corner-->
     <link rel="stylesheet" href="//assets.iu.edu/search/3.x/search.css" type="text/css">
-
+    <!--For bootstrap tour functionality-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.11.0/css/bootstrap-tour-standalone.min.css" rel="stylesheet">
 </head>
 <body class="">
 <div class="off-canvas-wrap" data-offcanvas>
@@ -63,27 +64,15 @@
                         <th width="auto" align="center">Last Name</th>
                         <th width="auto" align="center">Last Updated</th>
                     </tr>
-                    <tr>
-                        <td>2000012543</td>
-                        <td>brladri</td>
-                        <td>Brooklyn</td>
-                        <td>Aldridge</td>
-                        <td>05/20/2017</td>
+                    <% studentData.studentData.forEach(function(student){ %>
+                    <tr id="student_row"  onclick="window.location= '/page3';">
+                        <td id="university_id"><%= student.universityID%></td>
+                        <td id="user_name"><%= student.username%></td>
+                        <td id="first_name"><%= student.firstName%></td>
+                        <td id="last_name"><%= student.lastName%></td>
+                        <td id="last_updated"><%= student.lastUpdated%></td>
                     </tr>
-                    <tr>
-                        <td>2000034637</td>
-                        <td>baconkay</td>
-                        <td>Kaylan</td>
-                        <td>Bacon</td>
-                        <td>05/21-2017</td>
-                    </tr>
-                    <tr>
-                        <td>2000046336</td>
-                        <td>pbatchel</td>
-                        <td>Presley</td>
-                        <td>Batchelor</td>
-                        <td>05-17-2017</td>
-                    </tr>
+                    <% });%>
                 </table>
             </div>
         </main>
@@ -113,6 +102,8 @@
 <!-- global search.js from //assets.iu.edu -->
 <!-- search initialization -->
 <!-- site javascript files -->
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.11.0/js/bootstrap-tour-standalone.min.js"></script>
+<script src="./javascripts/tour2.js"></script>
 </body>
 </html>

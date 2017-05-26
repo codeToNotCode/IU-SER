@@ -10,11 +10,10 @@
     <link rel="stylesheet" href="//fonts.iu.edu/style.css?family=BentonSans:regular,bold|BentonSansCond:regular,bold|GeorgiaPro:regular|BentonSansLight:regular" type="text/css">
     <!--IU framework to have all the relevant styles applied-->
     <link rel="stylesheet" type="text/css" href="//assets.iu.edu/web/3.x/css/iu-framework.min.css">
-
-    <!--For the top red border-->
+    <!--Custom style sheet for all the 3 pages-->
     <link rel="stylesheet" href="//assets.iu.edu/brand/3.x/brand.css" type="text/css">
-    <!--For the Seaech magnifying glass: top-right corner-->
-    <link rel="stylesheet" href="//assets.iu.edu/search/3.x/search.css" type="text/css">
+    <!--For bootstrap tour functionality-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.11.0/css/bootstrap-tour-standalone.min.css" rel="stylesheet">
 
 </head>
 <body class="">
@@ -78,7 +77,7 @@
                         </div>
                     </div>
                     <div class="grid-item">
-                        <div class="column-demo"> <input id="midterm_perf_rev_button" class="button" type="button" value="Go"></div>
+                        <div class="column-demo">  <a href="#" id="midterm_perf_rev_button" class="button" >Go</a></div>
                     </div>
                     <div class="grid-item" style="width: 13%"><div class="column-demo"><h4>Pre-Semester Roster Review</h4></div></div>
                     <div class="grid-item" style="margin-left: 1%; width: 50%">
@@ -91,7 +90,7 @@
                         </div>
                     </div>
                     <div class="grid-item">
-                        <div class="column-demo"> <input id="presem_roster_rev_button" class="button" type="button" value="Go"></div>
+                        <div class="column-demo"> <a href="/page1" id="presem_roster_rev_button" class="button" >Go</a></div>
                     </div>
                 </div><!-- Page Content -->
 
@@ -130,6 +129,9 @@
 <!-- global search.js from //assets.iu.edu -->
 <!-- search initialization -->
 <!-- site javascript files -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.11.0/js/bootstrap-tour-standalone.min.js"></script>
+<script src="./javascripts/tour1.js"></script>
 
 </body>
 </html>

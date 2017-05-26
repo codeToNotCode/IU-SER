@@ -1,0 +1,82 @@
+{
+
+  "studentData": [
+    {
+      "universityID": "2000012543",
+      "username": "brladri",
+      "firstName": "Brooklyn",
+      "lastName": "Aldridge",
+      "lastUpdated": "05/20/2017"
+    },
+    {
+      "universityID": "2000034637",
+      "username": "baconkay",
+      "firstName": "Kaylan",
+      "lastName": "Bacon",
+      "lastUpdated": "05/21/2017"
+    },
+    {
+      "universityID": "2000046336",
+      "username": "pbatchel",
+      "firstName": "Presley",
+      "lastName": "Batchelor",
+      "lastUpdated": "05/17/2017"
+    },
+    {
+      "universityID": "2000030259",
+      "username": "ps23",
+      "firstName": "Prasandeep",
+      "lastName": "Singh",
+      "lastUpdated": "05/25/2017"
+    },
+    {
+      "universityID": "2000046336",
+      "username": "pbatchel",
+      "firstName": "Presley",
+      "lastName": "Batchelor",
+      "lastUpdated": "05/17/2017"
+    },
+    {
+      "universityID": "2000046336",
+      "username": "pbatchel",
+      "firstName": "Presley",
+      "lastName": "Batchelor",
+      "lastUpdated": "05/17/2017"
+    },
+    {
+      "universityID": "2000046336",
+      "username": "pbatchel",
+      "firstName": "Presley",
+      "lastName": "Batchelor",
+      "lastUpdated": "05/17/2017"
+    },
+    {
+      "universityID": "2000046336",
+      "username": "pbatchel",
+      "firstName": "Presley",
+      "lastName": "Batchelor",
+      "lastUpdated": "05/17/2017"
+    },
+    {
+      "universityID": "2000046336",
+      "username": "pbatchel",
+      "firstName": "Presley",
+      "lastName": "Batchelor",
+      "lastUpdated": "05/17/2017"
+    },
+    {
+      "universityID": "2000046336",
+      "username": "pbatchel",
+      "firstName": "Presley",
+      "lastName": "Batchelor",
+      "lastUpdated": "05/17/2017"
+    },
+    {
+      "universityID": "2000046336",
+      "username": "pbatchel",
+      "firstName": "Presley",
+      "lastName": "Batchelor",
+      "lastUpdated": "05/17/2017"
+    }
+  ]
+}
