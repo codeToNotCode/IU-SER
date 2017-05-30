@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed0cf7b7-1c8d-4984-9dcf-219e40b3baf5" name="Default" comment="" />
+    <list default="true" id="ed0cf7b7-1c8d-4984-9dcf-219e40b3baf5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,8 +20,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/public/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="124" column="23" lean-forward="false" selection-start-line="124" selection-start-column="16" selection-end-line="124" selection-end-column="23" />
+            <state relative-caret-position="288">
+              <caret line="194" column="28" lean-forward="false" selection-start-line="194" selection-start-column="28" selection-end-line="194" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -38,18 +40,8 @@
       <file leaf-file-name="studentData.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/studentData.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/routes/page1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="415">
+              <caret line="149" column="5" lean-forward="false" selection-start-line="149" selection-start-column="5" selection-end-line="149" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -58,8 +50,8 @@
       <file leaf-file-name="page1.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/views/page1.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="133" column="32" lean-forward="false" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="32" />
+            <state relative-caret-position="174">
+              <caret line="105" column="41" lean-forward="false" selection-start-line="105" selection-start-column="34" selection-end-line="105" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -68,7 +60,7 @@
       <file leaf-file-name="tour1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/public/javascripts/tour1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
+            <state relative-caret-position="561">
               <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
               <folding>
                 <element signature="e#1028#1068#0" expanded="false" />
@@ -80,9 +72,22 @@
       <file leaf-file-name="page2.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/views/page2.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="46" />
+            <state relative-caret-position="670">
+              <caret line="107" column="42" lean-forward="false" selection-start-line="107" selection-start-column="42" selection-end-line="107" selection-end-column="42" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pagination.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/public/javascripts/pagination.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="31" column="3" lean-forward="false" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
+                <marker date="1496174039892" expanded="true" signature="345:351" ph=" " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,14 +95,18 @@
       <file leaf-file-name="page3.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/views/page3.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="161" column="20" lean-forward="true" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="303">
+              <caret line="164" column="35" lean-forward="false" selection-start-line="164" selection-start-column="28" selection-end-line="164" selection-end-column="35" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#0;n#div#1;n#div#0;n#td#2;n#tr#0;n#table#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#1;n#div#1;n#div#0;n#td#2;n#tr#0;n#table#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tour3.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tour3.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/public/javascripts/tour3.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="645">
@@ -112,7 +121,7 @@
       <file leaf-file-name="tour2.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/public/javascripts/tour2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
+            <state relative-caret-position="782">
               <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
               <folding>
                 <element signature="e#1349#1389#0" expanded="false" />
@@ -135,6 +144,8 @@
       <find>res</find>
       <find>result</find>
       <find>sub</find>
+      <find>table_container</find>
+      <find>content</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -148,15 +159,16 @@
         <option value="$PROJECT_DIR$/StudentEngagementRoster/routes/page2.js" />
         <option value="$PROJECT_DIR$/StudentEngagementRoster/app.js" />
         <option value="$PROJECT_DIR$/StudentEngagementRoster/routes/page1.js" />
-        <option value="$PROJECT_DIR$/StudentEngagementRoster/studentData.json" />
         <option value="$PROJECT_DIR$/StudentEngagementRoster/routes/page3.js" />
-        <option value="$PROJECT_DIR$/StudentEngagementRoster/public/stylesheets/style.css" />
-        <option value="$PROJECT_DIR$/StudentEngagementRoster/views/page3.ejs" />
         <option value="$PROJECT_DIR$/StudentEngagementRoster/public/javascripts/tour2.js" />
-        <option value="$PROJECT_DIR$/StudentEngagementRoster/views/page2.ejs" />
         <option value="$PROJECT_DIR$/StudentEngagementRoster/public/javascripts/tour1.js" />
         <option value="$PROJECT_DIR$/StudentEngagementRoster/views/page1.ejs" />
         <option value="$PROJECT_DIR$/StudentEngagementRoster/public/javascripts/tour3.js" />
+        <option value="$PROJECT_DIR$/StudentEngagementRoster/views/page3.ejs" />
+        <option value="$PROJECT_DIR$/StudentEngagementRoster/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/StudentEngagementRoster/studentData.json" />
+        <option value="$PROJECT_DIR$/StudentEngagementRoster/public/javascripts/pagination.js" />
+        <option value="$PROJECT_DIR$/StudentEngagementRoster/views/page2.ejs" />
       </list>
     </option>
   </component>
@@ -189,7 +201,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -248,6 +259,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -365,12 +377,13 @@
       <updated>1495743001581</updated>
       <workItem from="1495743003144" duration="387000" />
       <workItem from="1495743869603" duration="563000" />
-      <workItem from="1495746383885" duration="20266000" />
+      <workItem from="1495746383885" duration="20545000" />
+      <workItem from="1496170142139" duration="4249000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21216000" />
+    <option name="totallyTimeSpent" value="25744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1936" height="1056" extended-state="0" />
@@ -380,9 +393,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39933258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -405,54 +418,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/bin/www">
+    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/routes/page2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/routes/page3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="32" column="2" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="2108">
+          <caret line="124" column="23" lean-forward="false" selection-start-line="124" selection-start-column="16" selection-end-line="124" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -465,14 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/routes/page1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/studentData.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -481,9 +442,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/routes/page1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/views/page1.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2261">
+          <caret line="133" column="32" lean-forward="false" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/public/javascripts/tour1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
+        <state relative-caret-position="561">
+          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="e#1028#1068#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/views/page2.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/views/page3.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2737">
+          <caret line="161" column="20" lean-forward="false" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#div#1;n#div#0;n#td#2;n#tr#0;n#table#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#1;n#div#1;n#div#0;n#td#2;n#tr#0;n#table#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/public/javascripts/tour2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding>
+            <element signature="e#1349#1389#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/public/javascripts/tour3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" column="52" lean-forward="false" selection-start-line="96" selection-start-column="52" selection-end-line="96" selection-end-column="52" />
+          <folding>
+            <element signature="e#4194#4234#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/routes/page2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/routes/page3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="32" column="2" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/routes/page1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/public/javascripts/tour1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
           <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           <folding>
             <element signature="e#1028#1068#0" expanded="false" />
@@ -493,43 +570,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/public/javascripts/tour2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
+        <state relative-caret-position="782">
           <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
           <folding>
             <element signature="e#1349#1389#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/views/page2.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/views/page1.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="133" column="32" lean-forward="false" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="124" column="23" lean-forward="false" selection-start-line="124" selection-start-column="16" selection-end-line="124" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/views/page3.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="161" column="20" lean-forward="true" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -539,6 +584,69 @@
           <caret line="96" column="52" lean-forward="false" selection-start-line="96" selection-start-column="52" selection-end-line="96" selection-end-column="52" />
           <folding>
             <element signature="e#4194#4234#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/views/page1.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="105" column="41" lean-forward="false" selection-start-line="105" selection-start-column="34" selection-end-line="105" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/views/page3.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="164" column="35" lean-forward="false" selection-start-line="164" selection-start-column="28" selection-end-line="164" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#div#1;n#div#0;n#td#2;n#tr#0;n#table#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#1;n#div#1;n#div#0;n#td#2;n#tr#0;n#table#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="194" column="28" lean-forward="false" selection-start-line="194" selection-start-column="28" selection-end-line="194" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/studentData.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="149" column="5" lean-forward="false" selection-start-line="149" selection-start-column="5" selection-end-line="149" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/views/page2.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="107" column="42" lean-forward="false" selection-start-line="107" selection-start-column="42" selection-end-line="107" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentEngagementRoster/public/javascripts/pagination.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="31" column="3" lean-forward="false" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+            <marker date="1496174039892" expanded="true" signature="345:351" ph=" " />
           </folding>
         </state>
       </provider>
