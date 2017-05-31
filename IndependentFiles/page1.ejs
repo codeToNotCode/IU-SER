@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title%> </title>
+    <link rel="stylesheet" href="./stylesheets/style.css" type="text/css" media="screen"/>
+    <link href="//www.iu.edu/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+
+    <!--Font stack to use-->
+    <link rel="stylesheet" href="//fonts.iu.edu/style.css?family=BentonSans:regular,bold|BentonSansCond:regular,bold|GeorgiaPro:regular|BentonSansLight:regular" type="text/css">
+    <!--IU framework to have all the relevant styles applied-->
+    <link rel="stylesheet" type="text/css" href="//assets.iu.edu/web/3.x/css/iu-framework.min.css">
+    <!--Custom style sheet for all the 3 pages-->
+    <link rel="stylesheet" href="//assets.iu.edu/brand/3.x/brand.css" type="text/css">
+    <!--For bootstrap tour functionality-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.11.0/css/bootstrap-tour-standalone.min.css" rel="stylesheet">
+
+</head>
+<body class="">
+<div class="off-canvas-wrap" data-offcanvas>
+
+    <!--Header Bar - Red Color -->
+    <div id="branding-bar" itemscope="itemscope" itemtype="http://schema.org/CollegeOrUniversity" role="complementary" aria-labelledby="campus-name">
+        <div class="row pad">
+            <img src="//assets.iu.edu/brand/3.x/trident-large.png" alt="IU" />
+            <p id="iu-campus">
+                <a href="https://www.iu.edu" title="Indiana University">
+                    <span id="campus-name" class="show-on-desktop" itemprop="name">Indiana University</span>
+                    <span class="show-on-tablet" itemprop="name">Indiana University</span>
+                    <span class="show-on-mobile" itemprop="name">IU</span>
+                </a>
+            </p>
+        </div>
+    </div>
+
+
+    <div class="inner-wrap">
+
+        <!-- Application Header : Student Engagement Roster, Rosters/Logout-->
+        <div id = "app_header">
+            <div id ="ser"><h1>Student Engagement Roster</h1></div>
+            <div id ="header_links">
+                <div id="rosters">Rosters</div> /
+                <div id="logout">Logout</div>
+            </div>
+        </div>
+
+        <!-- Page Heading and Student Name(University Id)-->
+        <div id = "page_header">
+            <h2><%= title%></h2>
+            <hr>
+
+        </div>
+
+        <main class="">
+
+            <!-- section/sidebar navigation -->
+
+            <!-- breadcrumbs -->
+
+            <!-- optional: page-title -->
+
+            <section id="content" class="section">
+
+                <div class="grid thirds">
+                    <div class="grid-item" style="width: 5%">
+                        <div class="column-demo"><h4>Midterm Performance Review</h4>
+                        </div>
+                    </div>
+                    <div class="grid-item" style="margin-left: 9%; width: 50%">
+                        <div class="column-demo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="column-demo">  <a href="#" id="midterm_perf_rev_button" class="button" >Go</a></div>
+                    </div>
+                    <div class="grid-item" style="width: 13%"><div class="column-demo"><h4>Pre-Semester Roster Review</h4></div></div>
+                    <div class="grid-item" style="margin-left: 1%; width: 50%">
+                        <div class="column-demo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="column-demo"> <a href="/page1" id="presem_roster_rev_button" class="button" >Go</a></div>
+                    </div>
+                </div><!-- Page Content -->
+
+            </section>
+
+            <!-- optional: footer-call-to-action -->
+
+            <!-- optional: belt -->
+
+            <!-- optional: skirt -->
+
+        </main>
+        <footer id="footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/CollegeOrUniversity">
+            <div class="row pad">
+                <p class="tagline">Fulfilling <span>the</span> Promise</p>
+                <p class="signature">
+                    <a href="https://www.iu.edu" class="signature-link">Indiana University</a>
+                </p>
+                <p class="copyright">
+                    <a href="https://www.iu.edu/copyright/index.html" title="Copyright">Copyright</a> &#169; 2016 <span class="line-break">The Trustees of <a href="https://www.iu.edu/" title="Indiana University" itemprop="url"><span itemprop="name">Indiana University</span></a></span> | <span class="line-break"><a href="/privacy" id="privacy-policy-link" title="Privacy Policy">Privacy Notice</a></span>
+                </p>
+            </div>
+        </footer>
+        <!-- footer -->
+
+    </div><!-- /.inner-wrap -->
+
+    <div class="right-off-canvas-menu show-for-medium-down">
+        <!-- offcanvas: includes menu for mobile -->
+    </div>
+
+</div><!-- /.off-canvas-wrap -->
+
+<!-- jquery -->
+<!-- global js from //assets.iu.edu -->
+<!-- global search.js from //assets.iu.edu -->
+<!-- search initialization -->
+<!-- site javascript files -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.11.0/js/bootstrap-tour-standalone.min.js"></script>
+<script src="./javascripts/tour1.js"></script>
+
+</body>
+</html>
