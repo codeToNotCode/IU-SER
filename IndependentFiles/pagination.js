@@ -3,7 +3,7 @@
  */
 $(document).ready(function() {
     var totalRows = $('#table').find('tbody tr:has(td)').length;
-    var recordPerPage = 10;
+    var recordPerPage = 3;
     var totalPages = Math.ceil(totalRows / recordPerPage);
     var $pages = $('<div id="pages"></div>');
     for (i = 0; i < totalPages; i++) {

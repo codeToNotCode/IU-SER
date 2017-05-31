@@ -26,7 +26,7 @@ var tour = new Tour({
                 $("#student_row").css("background-color", "#f1f1f1");
             },
             onNext: function(){
-                document.location.href = '/page3';
+                document.location.href = 'page3.html';
                 tour.setCurrentStep(0);
                 return (new jQuery.Deferred()).promise();
             }

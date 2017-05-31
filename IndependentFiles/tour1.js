@@ -14,7 +14,7 @@ var tour = new Tour({
             content: "Click on this Go button to view pre-semester roster review for all the students",
             smartPlacement: true,
             onNext: function(){
-            document.location.href = '/page1';
+            document.location.href = 'page2.html';
             tour.setCurrentStep(0);
             return (new jQuery.Deferred()).promise();
         }
